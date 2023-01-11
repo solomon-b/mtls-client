@@ -27,6 +27,8 @@ executable mtls-client
                     , http-client-tls
                     , http-types
                     , tls
+                    , x509
                     , x509-system
+                    , x509-store
     hs-source-dirs:   app
     default-language: Haskell2010
